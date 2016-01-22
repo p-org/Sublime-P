@@ -38,6 +38,7 @@ Typing will replace all instances of `index`. Pressing tab jumps to `Array` whic
 # Making changes to `p.tmLanguage`
 The `p.tmLanguage` file defines the syntax highlighting. It is a generated file, but is committed for convenience.
 To make changes, do the following: 
+
 1. Install [Package Control](https://packagecontrol.io/installation) in Sublime Text 3 and then use the Command Palette `Ctrl+Shift+P` to `Install Package` and search for and install `AAAPackageDev`. 
 2. Open `p.YAML-tmLanguage`.
 3. Make your changes.
