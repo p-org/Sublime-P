@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[machine ${1:MyMachine}
+	receives eSomeEvent
+{
+	var SomeV : SomeMachine;
+
+	start state ${2:Init} {
+
+		entry (payload: machine) {
+			// TODO
+			SomeV = payload;
+			raise eUnit;
+		}
+
+		on eUnit goto ${3:SomeState};
+	}
+
+	state ${3:SomeState} {
+		ignore ;
+		defer ;
+
+		entry {
+			// TODO
+		}
+
+		// TODO
+	}
+}]]></content>
+    <tabTrigger>machine</tabTrigger>
+    <scope>source.p</scope>
+    <description>machine</description>
+</snippet>

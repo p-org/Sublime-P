@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[module ${1:ModuleName}
+sends ${2:eEvent}
+creates ${3:SomeMachine}
+{
+	$4
+}]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.p</scope>
+    <description>module</description>
+</snippet>

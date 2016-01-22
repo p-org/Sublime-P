@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[${1:index} = 0;
+while($1 < sizeof(${2:Array}))
+{
+	$3
+    $1 = $1 + 1;
+}]]></content>
+    <tabTrigger>whileindex</tabTrigger>
+    <scope>source.p</scope>
+    <description>whileindex</description>
+</snippet>

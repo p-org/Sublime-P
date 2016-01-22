@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[test safety ${1:name}: ${2:SomeModule}, ${3:AnotherModule};]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.p</scope>
+    <description>test</description>
+</snippet>

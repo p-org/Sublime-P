@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[var ${1:Name}V : ${2:Type};]]></content>
+    <tabTrigger>var</tabTrigger>
+    <scope>source.p</scope>
+    <description>var</description>
+</snippet>

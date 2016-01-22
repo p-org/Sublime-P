@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[implementation ${1:SomeModule}, ${2:AnotherModule};]]></content>
+    <tabTrigger>implementation</tabTrigger>
+    <scope>source.p</scope>
+    <description>implementation</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[event e${1:SomeEvent};
+]]></content>
+    <tabTrigger>event</tabTrigger>
+    <scope>source.p</scope>
+    <description>event</description>
+</snippet>

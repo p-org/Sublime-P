@@ -1,0 +1,50 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: P language
+scopeName: source.p
+fileTypes: [p]
+uuid: 02d90f6f-553b-4a22-a121-a8ddeb6dade4
+
+
+patterns:
+- name: keyword.control
+  match: \bif\b|\belse\b|\bwhile\b|\breturn\b
+- name: keyword
+  match: \bvar\b
+- name: keyword.control
+  match: \bassert\b|\bassume\b
+- name: keyword.other
+  match: \bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b
+- name: keyword.other
+  match: \bstart\b
+- name: support.function
+  match: \bentry\b
+- name: support.function
+  match: \bsend\b|\braise\b
+- name: string.regexp
+  match: \be[A-Z]\w*\b
+- name: storage.type
+  match: \b\w*Machine\b
+- name: storage.type
+  match: \b\w\w*Type\b
+- name: storage.type
+  match: \bint\b|\bbool\b|\bseq\b|\bmap\b|\bany\b|\bforeign\b
+- name: variable.parameter
+  match: \b\w*V\b
+- name: support.constant
+  match: \bthis\b
+- name: constant.numeric
+  match: \btrue\b|\bfalse\b
+- name: comment.block
+  begin: /\*
+  end: \*/
+  captures:
+    '0': {name: punctuation.definition.comment.p}
+- name: comment.line.double-slash
+  match: (//).*$\n?
+  captures:
+    '1': {name: punctuation.definition.comment.p}
+
+
+
+
+
