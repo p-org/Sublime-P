@@ -1,6 +1,9 @@
 # Sublime-P
 P language plugin for Sublime Text 3. Includes basic syntax highlighting, comments format and some snippets.
 
+# Screenshot
+![Screenshot](/example.png?raw=true)
+
 # Install
 Clone this repo into the user packages directory. E.g. `C:\Users\Paul\AppData\Roaming\Sublime Text 3\Packages\User\`.
 
