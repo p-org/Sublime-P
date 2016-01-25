@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b</string>
+			<string>\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
