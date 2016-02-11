@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[type ${1:Name}Type = 
+(
+	$2
+);]]></content>
+    <tabTrigger>typetuple</tabTrigger>
+    <scope>source.p</scope>
+    <description>typetuple</description>
+</snippet>

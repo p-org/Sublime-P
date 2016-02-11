@@ -13,7 +13,7 @@ patterns:
 - name: keyword.control
   match: \bassert\b|\bassume\b
 - name: keyword.other
-  match: \binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b
+  match: \bsatisfies\b|\bmonitors\b|\bspec\b|\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b
 - name: keyword.other
   match: \bstart\b
 - name: support.function
@@ -23,7 +23,9 @@ patterns:
 - name: string.regexp
   match: \be[A-Z]\w*\b
 - name: storage.type
-  match: \b\w*Machine\b
+  match: \b\w*Machine\b|\bM[A-Z]\w*\b
+- name: storage.type
+  match: \b\w*Interface\b|\bI[A-Z]\w*\b
 - name: storage.type
   match: \b\w\w*Type\b
 - name: storage.type
