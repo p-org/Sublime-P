@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\bif\b|\belse\b|\bwhile\b|\breturn\b|\bgoto\b</string>
+			<string>\bif\b|\belse\b|\bwhile\b|\breturn\b</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bsatisfies\b|\bmonitors\b|\bspec\b|\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b|\bprint\b</string>
+			<string>\bsatisfies\b|\bmonitors\b|\bspec\b|\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b|\benum\b</string>
 			<key>name</key>
 			<string>keyword.other</string>
 		</dict>
@@ -42,7 +42,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bentry\b|\bexit\b</string>
+			<string>\bentry\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bint\b|\bbool\b|\bseq\b|\bmap\b|\bany\b|\bforeign\b</string>
+			<string>\bint\b|\bbool\b|\bseq\b|\bmap\b|\bset\b|\bany\b|\bforeign\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>

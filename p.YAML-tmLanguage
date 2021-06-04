@@ -13,7 +13,7 @@ patterns:
 - name: keyword.control
   match: \bassert\b|\bassume\b
 - name: keyword.other
-  match: \bsatisfies\b|\bmonitors\b|\bspec\b|\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b
+  match: \bsatisfies\b|\bmonitors\b|\bspec\b|\binclude\b|\bfun\b|\bnull\b|\bsizeof\b|\bpublic\b|\bin\b|\bdefault\b|\bdo\b|\bwith\b|\bevent\b|\binterface\b|\bmodule\b|\btype\b|\bsends\b|\bcreates\b|\bmachine\b|\breceives\b|\bstate\b|\bon\b|\bgoto\b|\bignore\b|\bdefer\b|\bmonitor\b|\bobserves\b|\bcold\b|\bhot\b|\bmain\b|\bmodel\b|\btest\b|\bsafety\b|\bimplementation\b|\bpush\b|\bnew\b|\benum\b
 - name: keyword.other
   match: \bstart\b
 - name: support.function
@@ -29,7 +29,7 @@ patterns:
 - name: storage.type
   match: \b\w\w*Type\b
 - name: storage.type
-  match: \bint\b|\bbool\b|\bseq\b|\bmap\b|\bany\b|\bforeign\b
+  match: \bint\b|\bbool\b|\bseq\b|\bmap\b|\bset\b|\bany\b|\bforeign\b
 - name: variable.parameter
   match: \b\w*V\b
 - name: support.constant

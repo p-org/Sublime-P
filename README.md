@@ -6,14 +6,8 @@ P language plugin for Sublime Text 3. Includes basic syntax highlighting, commen
 
 # Install
 
-## Windows
-Clone this repo into the user packages directory. E.g. `C:\Users\Paul\AppData\Roaming\Sublime Text 3\Packages\User\`.
-
-## Mac and Linux
-Clone this repo into the user packages directory. E.g. `~/Library/ApplicationSupport/Sublime Text 3/Packages/User`.
-
-Files with the `.p` extension will be recognized as Pascal files by default. 
-Open a `.p` file and use `View -> Syntax -> Open all with current extension as ...` to change the default to the P language.
+Use the Command Palette to `Add Repository` and add this GitHub repository.
+Then use the Command Palette to `Install Package` and search for and install `Sublime-P`. 
 
 # Conventions
 The syntax highlighting assumes the following conventions, but you don't have to follow them.  
